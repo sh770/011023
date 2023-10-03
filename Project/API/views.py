@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from . models import ToDoList
 from . serializers import ToDoListSerializer
 
+'''
 # Create your views here.
 @api_view(['GET'])
 def getRoutes(request):
@@ -30,6 +31,9 @@ def getRoutes(request):
     ]    
 
     return Response(routes)
+'''
+
+
 
 @api_view(['GET'])
 def getAllList(request):
